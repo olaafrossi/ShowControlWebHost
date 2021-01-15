@@ -9,7 +9,7 @@ namespace ShowControlWebHost.MVCUI
 {
     [ApiController]
     [Route("[controller]")]
-    public class Exhibit01Controller : ControllerBase
+    public class Exhibit01Controller : Controller
     {
         private readonly ILogger<Exhibit01Controller> _logger;
 

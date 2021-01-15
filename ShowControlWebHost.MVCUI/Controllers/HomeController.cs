@@ -23,6 +23,11 @@ namespace ShowControlWebHost.MVCUI.Controllers
             return View();
         }
 
+        public IActionResult Exhibit01()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
